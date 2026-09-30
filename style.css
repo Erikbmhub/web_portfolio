@@ -1,3 +1,16 @@
-*{
-    background-color: aquamarine;
+* {
+  background-color: aquamarine;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.galeria {
+    display: flex;
+    gap: 20px;
+}
+.maravilla img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
 }
